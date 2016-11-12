@@ -14,7 +14,7 @@ board.on("ready", function() {
   animation.enqueue({
     cuePoints: [0, 0.25, 0.75, 1],
     keyFrames: [90, { value: 180, easing: "inQuad" }, { value: 0, easing: "outQuad" }, 90],
-    duration: 5000
+    duration: 3000
   });
 
   // Inject the `servo` hardware into

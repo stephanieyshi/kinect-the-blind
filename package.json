@@ -35,11 +35,12 @@
   },
   "homepage": "https://github.com/wouterverweirder/kinect2",
   "dependencies": {
+    "atob": "^2.0.3",
+    "express": "~4.9.5",
+    "johnny-five": "0.10.5",
     "nan": "^2.3.2",
     "node-pre-gyp": "^0.6.11",
-		"express": "~4.9.5",
-		"socket.io": "~1.1.0",
-    "johnny-five": "0.10.5",
+    "socket.io": "~1.1.0",
     "synchronize": "2.0.0"
   },
   "bundledDependencies": [
